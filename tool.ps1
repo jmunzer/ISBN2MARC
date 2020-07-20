@@ -2,7 +2,6 @@
 $list = Get-Content "*.csv"
 
 # set parameters
-#$marcbase = 'http://alto-mis:8083/TalisSOA/api/resources/bib-record/'
 $isbnbase = 'http://alto-mis:8083/TalisSOA/api/resources/bib-records?filter-isbns='
 $outputFile = 'e-'
 $suff = '.mrc'
